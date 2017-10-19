@@ -11,4 +11,9 @@ import scrapy
 class NjResoldhouseItem(scrapy.Item):
     # define the fields for your item here like:
     # name = scrapy.Field()
-    pass
+    house = scrapy.Field()
+    total_price = scrapy.Field()
+    unit_price = scrapy.Field()
+    house_room = scrapy.Field()
+    house_area = scrapy.Field()
+    
